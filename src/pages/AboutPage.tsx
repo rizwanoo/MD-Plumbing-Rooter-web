@@ -148,7 +148,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
 
           <div className="lg:col-span-6 relative aspect-[4/3] overflow-hidden bg-black">
             <img
-              src="/src/assets/images/about_master_plumber_craft_1794390955655.jpg"
+              src="/images/about_craft.jpg"
               alt="MD Plumbing master tradesman checking manifold and pressure valves"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
