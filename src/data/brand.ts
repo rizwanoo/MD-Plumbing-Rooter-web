@@ -45,7 +45,7 @@ export const VERIFIED_SERVICES: ServiceItem[] = [
     name: 'Main Line Clogs',
     shortName: 'Main Line',
     tagline: 'High-output mechanical snaking & rooter clearing for sewer mainlines',
-    image: '/src/assets/images/service_main_line_rooter_1794389399859.jpg',
+    image: '/images/service_rooter.jpg',
     summary:
       'When your entire home backs up or gurgles simultaneously, the issue sits deep in the primary sewer lateral. We deploy commercial-grade rooter cables and camera diagnostics to cut through heavy roots, grease build-up, and foreign blockages right at the cleanout.',
     diagnosticSigns: [
@@ -68,7 +68,7 @@ export const VERIFIED_SERVICES: ServiceItem[] = [
     name: 'Plumbing Leaks',
     shortName: 'Leaks',
     tagline: 'Non-destructive leak detection and precision copper & PEX repairs',
-    image: '/src/assets/images/service_leak_detection_acoustic_1794389399353.jpg',
+    image: '/images/service_leak.jpg',
     summary:
       'Hidden plumbing leaks waste thousands of gallons and undermine home foundations. Using acoustic leak detection equipment and digital pressure monitoring, we pinpoint underground and in-wall pinholes without tearing your property apart unnecessarily.',
     diagnosticSigns: [
@@ -91,7 +91,7 @@ export const VERIFIED_SERVICES: ServiceItem[] = [
     name: 'Sewer Repairs',
     shortName: 'Sewer',
     tagline: 'Camera-verified lateral restoration, spot fixes & cleanout installations',
-    image: '/src/assets/images/service_sewer_repair_action_1794390954835.jpg',
+    image: '/images/service_sewer.jpg',
     summary:
       'Damaged sewer lines cause recurring backups, ground sinkage, and structural hazards. We provide candid video inspections to show you exactly what is broken inside your pipes, followed by honest repair recommendations tailored to your home layout.',
     diagnosticSigns: [
@@ -114,7 +114,7 @@ export const VERIFIED_SERVICES: ServiceItem[] = [
     name: 'Water Heater Services',
     shortName: 'Water Heaters',
     tagline: 'Tankless & high-recovery tank installations, repairs & safety valves',
-    image: '/src/assets/images/service_water_heater_tankless_1794389398745.jpg',
+    image: '/images/service_heater.jpg',
     summary:
       'From sudden cold showers to corroded tank bottoms, hot water issues disrupt everyday life. We install, repair, and maintain both ultra-efficient on-demand tankless systems and traditional gas or electric storage units with proper venting and expansion protection.',
     diagnosticSigns: [
@@ -137,7 +137,7 @@ export const VERIFIED_SERVICES: ServiceItem[] = [
     name: 'Toilet Installations',
     shortName: 'Toilets',
     tagline: 'Professional fixture mounting, flange rebuilding & zero-leak sealing',
-    image: '/src/assets/images/service_toilet_bathroom_fixture_1794389398663.jpg',
+    image: '/images/service_toilet.jpg',
     summary:
       'A poorly installed toilet can rot subfloors and invite sewer gases into your bathroom. We handle complete toilet replacements, broken closet flange repairs, premium wax ring sealing, and heavy-duty angle stop valve replacements with zero mess left behind.',
     diagnosticSigns: [
@@ -206,7 +206,7 @@ export const WORK_HIGHLIGHTS = [
     tag: 'Main Line Diagnostic',
     description:
       'Heavy root balls invading clay sewer lines in older California homes. Our cameras reveal what others merely guess at before cutting.',
-    image: '/src/assets/images/service_main_line_rooter_1794389399859.jpg',
+    image: '/images/service_rooter.jpg',
     stat: '100% Diagnostic Accuracy',
   },
   {
@@ -216,7 +216,7 @@ export const WORK_HIGHLIGHTS = [
     tag: 'Fiber Optic Telemetry',
     description:
       'Operating self-leveling color cameras inside residential sewer lines to pinpoint fractures, root intrusions, and pitch issues on-screen.',
-    image: '/src/assets/images/work_team_plumbing_action_1794390955674.jpg',
+    image: '/images/work_camera.jpg',
     stat: 'Live Screen Analysis',
   },
   {
@@ -226,7 +226,7 @@ export const WORK_HIGHLIGHTS = [
     tag: 'Navien Unit Setup',
     description:
       'Continuous endless hot water with pristine gas line sizing, dedicated condensation drains, and code-compliant combustion intake.',
-    image: '/src/assets/images/service_water_heater_tankless_1794389398745.jpg',
+    image: '/images/service_heater.jpg',
     stat: 'Endless Hot Water',
   },
   {
@@ -236,7 +236,7 @@ export const WORK_HIGHLIGHTS = [
     tag: 'Trenchless Pipelining',
     description:
       'Restoring compromised residential sewer pipes with heavy-duty lining equipment without tearing up landscaped driveways.',
-    image: '/src/assets/images/service_sewer_repair_action_1794390954835.jpg',
+    image: '/images/service_sewer.jpg',
     stat: 'Zero Lawn Demolition',
   },
 ];

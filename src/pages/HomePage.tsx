@@ -30,7 +30,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         {/* Full-Bleed HD Background Image: Master Plumber with Wrench */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/hero_plumber_fixing_cinematic_1794390203445.jpg"
+            src="/images/hero.jpg"
             alt="Master plumber actively fixing copper plumbing installation with wrench"
             className="w-full h-full object-cover object-center scale-100 transition-transform duration-1000 ease-out"
             referrerPolicy="no-referrer"
@@ -335,7 +335,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           <div className="lg:col-span-6 relative aspect-[4/3] overflow-hidden bg-black">
             <img
-              src="/src/assets/images/service_main_line_rooter_1794389399859.jpg"
+              src="/images/service_rooter.jpg"
               alt="Residential rooter dispatch in Inland Empire"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
