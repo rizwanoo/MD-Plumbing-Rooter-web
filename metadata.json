@@ -1,0 +1,6 @@
+{
+  "name": "MD Plumbing & Rooter",
+  "description": "Professional plumbing solutions, honest work and fair pricing. Proudly servicing Inland Empire (IE) and Los Angeles areas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-cobalt: #2457F5;
+    --color-aqua: #18C6C1;
+    --color-yellow: #FFE16B;
+    --color-mint: #E5F7F2;
+    --color-warm-white: #FFFDF7;
+    --color-charcoal: #1E282E;
+    --color-charcoal-dark: #121A1F;
+    --color-pure-white: #FFFFFF;
+  }
+
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--color-warm-white);
+    color: var(--color-charcoal);
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: default;
+  }
+
+  /* Headings: Barlow System */
+  h1, h2, h3, h4, h5, h6, .font-display, .font-heading {
+    font-family: 'Barlow', -apple-system, sans-serif;
+    letter-spacing: -0.015em;
+  }
+
+  /* Specific Heading Weights */
+  h1, .hero-heading {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800; /* Barlow ExtraBold */
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+
+  h2, .section-heading {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700; /* Barlow Bold */
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+  }
+
+  h3, .sub-heading {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600; /* Barlow SemiBold */
+    line-height: 1.25;
+  }
+
+  /* Clean UI Elements: Inter */
+  nav, button, input, select, textarea, label {
+    font-family: 'Inter', -apple-system, sans-serif;
+  }
+
+  /* Clean tag & kicker styles (no robotic monospaced clutter) */
+  .kicker-tag {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .font-mono-data {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    font-feature-settings: 'tnum' 1;
+  }
+}
+
+/* Zero card styling: clean structural grid dividers and hairline borders */
+.editorial-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.hairline-b {
+  border-bottom: 1px solid rgba(30, 40, 46, 0.12);
+}
+
+.hairline-t {
+  border-top: 1px solid rgba(30, 40, 46, 0.12);
+}
+
+.hairline-l {
+  border-left: 1px solid rgba(30, 40, 46, 0.12);
+}
+
+.hairline-r {
+  border-right: 1px solid rgba(30, 40, 46, 0.12);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFDF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #2457F5;
+}
